@@ -1,0 +1,5 @@
+nom = str(input('Digite seu nome:')).upper()
+print('seu nome é: {}'.format(nom))
+x = str(input('\nDigite o nome que sera substituido:')).upper()
+y = str(input('Digite o novo nome:')).upper()
+print('Nome atualizado: {}'.format(nom.replace(x, y)))
