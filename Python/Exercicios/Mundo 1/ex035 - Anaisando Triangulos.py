@@ -1,6 +1,6 @@
-R1 = float(input('Digite o primeiro numero:'))
-R2 = float(input('Digite o segundo numero:'))
-R3 = float(input('Digite o terceiro numero:'))
+R1 = float(input('Digite o primeiro valor:'))
+R2 = float(input('Digite o segundo valor:'))
+R3 = float(input('Digite o terceiro valor:'))
 #Verificando o maior valor e somando os menores
 maior = R1
 soma = R2 + R3
