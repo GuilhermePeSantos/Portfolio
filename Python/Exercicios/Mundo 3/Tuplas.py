@@ -21,3 +21,5 @@ print(nomes + sobrenomes)  # Concatena as Tuplas
 print(f'Maior: {max(x)}')  # Mostra o MAIOR numero dentro da tupla
 print(f'Menor: {min(x)}')  # Mostra o MENOR numero dentro da tupla
 del nomes  # Deleta a tupla
+
+# TUPLAS SÃO IMUTÁVEIS quando estao em execusão

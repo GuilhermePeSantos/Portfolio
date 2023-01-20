@@ -45,3 +45,4 @@ teste.append(usuario[:])
 galera = [['Guilherme', 18], ['Gabriel', 17], ['Maria', 15], ['Sergio', 20]]
 for p in galera:
     print(f'{p[0]} tem {p[1]} anos')
+print(f'{str(galera):^20}')  # Se for printar uma LISTA com alguma formatacao é necessario printar como STRING utilizando str()

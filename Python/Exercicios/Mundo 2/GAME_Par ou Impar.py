@@ -25,8 +25,8 @@ print('\n{} jogou \033[33mIMPAR\033[m'.format(impar))
 print('{} jogou \033[34mPAR\033[m'.format(par))
 print('\n\033[37mCALCULANDO...\033[m')
 sleep(2)
-print('A soma dos numeros é {}, portanto'.format(calculo))
+print('A soma dos numeros é {}, portanto'.format(calculo), end='')
 if calculo % 2 == 0:
-    print('\nO jogador(a) \033[32m{}\033[m GANHOU'.format(par))
+    print(' PAR\nO jogador(a) \033[32m{}\033[m GANHOU'.format(par))
 else:
-    print('\nO jogador(a) \033[32m{}\033[m GANHOU'.format(impar))
+    print(' IMPAR\nO jogador(a) \033[32m{}\033[m GANHOU'.format(impar))
