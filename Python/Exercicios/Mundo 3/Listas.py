@@ -1,7 +1,7 @@
 lista = [5, 3, 2, 7, 9, 1]
 valores = list(range(4, 11))  # Cria uma lista no intervalo de 4, 5, 6, 7, 8, 9, 10 ignorando o ultimo valor (11)
 lista.append(10)  # Cria mais uma celula e adiciona o valor no final da lista
-lista.insert(0, 4)
+lista.insert(0, 4)  # Inseri valores onde desejar
 len(lista)  # Mostra o tamanho da lista
 
 #formas de deletar valores em listas

@@ -19,4 +19,11 @@ while True:
     if opcao in 'Nn':
         break
 for i in jogo_geral:
-    print(f'{i},\n\t\t\t\t\t\t', end='')
+    print(f'{i},\n\t\t\t\t\t', end='')
+
+
+'''
+    if i < (len(jogo_geral) - 1):
+        print(f'\t\t\t\t\t{v},\n', end='')
+    else:
+        print(f'\t\t\t\t\t{v}', end='')'''
